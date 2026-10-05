@@ -258,7 +258,6 @@ Copy `.env.example` to `.env`. Main settings:
   wrong brand.
 - OpenCLI adapters use sites' internal endpoints and can break when a site changes. Headless Chrome can be
   detected, and some sites challenge it.
-- Amazon collection targets amazon.com.
 
 ## Responsible use
 
