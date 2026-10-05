@@ -1,4 +1,4 @@
-# open-review
+# Local Market Research
 
 Local-first market research reports. Give it a brand, product, or category. It plans the research, sends a
 ReAct agent to collect posts, comments, videos, reviews and search data through
