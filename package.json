@@ -1,0 +1,38 @@
+{
+  "name": "open-review",
+  "version": "0.1.0",
+  "description": "Local-first market research reports: ReAct agents collect customer voice through OpenCLI and a local LLM writes a cited report",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "keywords": [
+    "market-research",
+    "social-listening",
+    "ollama",
+    "local-llm",
+    "react-agent",
+    "opencli",
+    "reddit",
+    "competitive-intelligence"
+  ],
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "scripts": {
+    "report": "tsx src/cli.ts run",
+    "check": "tsx src/cli.ts doctor",
+    "cli": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "@jackwener/opencli": "^1.8.8",
+    "marked": "^18.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

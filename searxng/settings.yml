@@ -1,0 +1,13 @@
+use_default_settings: true
+
+server:
+  # Bound to 127.0.0.1 in docker-compose; local use only.
+  secret_key: "open-review-local-only-change-me"
+  limiter: false
+  image_proxy: false
+
+search:
+  # JSON output is what open-review consumes.
+  formats:
+    - html
+    - json
